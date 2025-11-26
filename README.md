@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brigadeiros do Lucas</title>
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      margin: 0;
+      background: #faf7f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #ff4f81, #ff2d68);
+      padding: 25px;
+      text-align: center;
+      color: white;
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #ff2d68;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 14px;
+    }
+    .btn {
+      display: inline-block;
+      background: #ff2d68;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 10px;
+      margin-top: 14px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #e00042;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      background: #ff4f81;
+      color: white;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+    }
+
+    .sobre {
+      background: white;
+      padding: 25px;
+      margin-top: 40px;
+      border-radius: 18px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<header>Brigadeiros do Lucas 🍫</header>
+
+<div class="container">
+  <h2>Sabores Disponíveis</h2>
+  <div class="produtos">
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Brigadeiro Tradicional">
+      <h3>Chocolate</h3>
+      <p>R$ 2,50 cada</p>
+      <a class="btn" href="https://wa.me/5561981044806?text=Quero%20brigadeiros%20de%20chocolate!">Comprar pelo WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Beijinho">
+      <h3>Beijinho</h3>
+      <p>R$ 2,50 cada</p>
+      <a class="btn" href="https://wa.me/5561981044806?text=Quero%20beijinhos!">Comprar pelo WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Casadinho">
+      <h3>Casadinho</h3>
+      <p>R$ 2,50 cada</p>
+      <a class="btn" href="https://wa.me/5561981044806?text=Quero%20casadinhos!">Comprar pelo WhatsApp</a>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300x200" alt="Leite Ninho">
+      <h3>Leite Ninho</h3>
+      <p>R$ 2,50 cada</p>
+      <a class="btn" href="https://wa.me/5561981044806?text=Quero%20brigadeiros%20de%20Leite%20Ninho!">Comprar pelo WhatsApp</a>
+    </div>
+
+  </div>
+
+  <div class="sobre">
+    <h2>Como Funciona?</h2>
+    <p>Escolha seus brigadeiros, clique no botão de compra e você será direcionado direto para meu WhatsApp (61 98104‑4806). Aí combinamos entrega, quantidade e sabores. Atendimento rápido e confiável. Atenção o frete varia de acordo com a região!</p>
+  </div>
+</div>
+
+<footer>
+  © 2025 Brigadeiros do Lucas — Produzido com qualidade e carinho ❤
+</footer>
+
+</body>
+</html>
